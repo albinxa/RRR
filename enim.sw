@@ -6,7 +6,6 @@ enum Color {
     Green: (),
     Red: (),
     Silver: (),
-    Grey: (),
 }
 
 fn main() {
