@@ -10,7 +10,6 @@ impl Delimiter {
         match self {
             Delimiter::Parenthesis => '(',
             Delimiter::Brace => '{',
-            Delimiter::Bracket => '[',
         }
     }
     pub const fn as_close_char(self) -> char {
