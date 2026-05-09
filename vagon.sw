@@ -7,7 +7,7 @@ struct Foo {
 
 fn main() {
     // Array of integers with type ascription
-    let array_of_integers: [u8; 5] = [1, 2, 3, 4, 5];
+    let array_of_integers: [u8; 5] = [1, 2, 3, 4, 5, 6, 7];
 
     // Array of strings
     let array_of_strings = ["Bob", "Jan", "Ron"];
