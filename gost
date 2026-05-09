@@ -26,7 +26,7 @@ cargo test --locked &&
 cargo +nightly udeps --locked --all-targets &&
 cargo install --locked --debug --path ./forc &&
 cargo install --locked --debug --path ./forc-plugins/forc-fmt &&
-cargo install --locked --debug --path ./forc-plugins/forc-lsp &&
+cargo install --locked --debug --path ./forc-plugins/forc-mtv &&
 cargo install --locked --debug --path ./forc-plugins/forc-client &&
 cargo install --locked --debug --path ./forc-plugins/forc-tx &&
 cargo install --locked --debug --path ./scripts/mdbook-forc-documenter &&
