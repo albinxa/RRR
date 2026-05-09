@@ -13,7 +13,7 @@ fn main() {
     let array_of_strings = ["Bob", "Jan", "Ron"];
 
     // Array of structs
-    let array_of_structs: [Foo; 2] = [
+    let array_of_structs: [Foo; 3] = [
         Foo {
             f1: 11,
             f2: 0x1111111111111111111111111111111111111111111111111111111111111111,
