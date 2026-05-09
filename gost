@@ -39,7 +39,7 @@ rm -Rf test-proj &&
 forc new test-proj &&
 echo "std = { path = \"../sway-lib-std/\" }" >> test-proj/Forc.toml &&
 forc build --path test-proj &&
-(cd test-proj && cargo generate --init --path ../templates/sway-test-rs --name test-proj) &&
+(cd test-proj && cargo generate --init --path ../templates/sway-test-rs --name proj) &&
 echo "[workspace]" >> test-proj/Cargo.toml &&
 (cd test-proj && cargo test) &&
 rm -R test-proj &&
