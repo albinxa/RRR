@@ -9,7 +9,7 @@
 # `cargo install fuel-core-bin --git https://github.com/FuelLabs/fuel-core --tag v0.24.3 --locked`
 #
 # And run it with:
-# `fuel-core run --db-type in-memory --debug --snapshot ./.github/workflows/local-testnode`
+# `fuel-core run --db-type in-memory --debug --snapshot ./.github/workflows/local-node`
 
 # Requires installed:
 # `cargo install cargo-sort`
