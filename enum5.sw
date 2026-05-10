@@ -12,6 +12,6 @@ pub enum StateError {
 }
 
 pub enum UserError {
-    InsufficientPermissions: (1955),
+    InsufficientPermissions: (155),
     Unauthorized: (),
 }
