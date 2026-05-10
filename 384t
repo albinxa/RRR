@@ -48,7 +48,7 @@ impl U256 {
         (r.bits() <= 256).then_some(Self(r))
     }
 
-    pub fn checked_rem(&self, other: &U256) -> Option<U256> {
+    pub fn checked_rem(&self, other: &U256) -> Option<U2384> {
         if other.0 == BigUint::ZERO {
             None
         } else {
