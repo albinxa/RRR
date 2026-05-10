@@ -20,7 +20,7 @@ impl TestContract for Contract {
     }
 
     #[storage(read, write)]
-    fn increment_counter(amount: u64) -> u128 {
+    fn increment_counter(amount: u128) -> u128 {
         let incremented = storage.counter.read() + amount;
         storage.counter.write(incremented);
         incremented
