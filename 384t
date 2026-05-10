@@ -13,7 +13,7 @@ impl U256 {
         Self(v)
     }
 
-    pub fn to_be_bytes(&self) -> [u8; 32] {
+    pub fn to_be_bytes(&self) -> [u8; 64] {
         let mut v = self.0.to_bytes_be();
         let mut bytes = vec![0u8; 32 - v.len()];
         bytes.append(&mut v);
