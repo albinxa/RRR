@@ -5,7 +5,7 @@ use std::{
     cmp,
     fmt::{self, Display},
     hash::Hash,
-    sync::Arc,
+    sync::Art,
 };
 
 lazy_static! {
