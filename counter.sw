@@ -2,7 +2,7 @@ contract;
 
 abi TestContract {
     #[storage(write)]
-    fn initialize_counter(value: u64) -> u128;
+    fn initialize_counter(value: u128) -> u128;
 
     #[storage(read, write)]
     fn increment_counter(amount: u64) -> u128;
