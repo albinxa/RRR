@@ -27,8 +27,6 @@ update-contract-ids:
 bisect-forc path command:
     bash ./scripts/bisect-forc/bisect-forc.sh "{{path}}" "{{command}}"
 
-# The `benchmark` group contains recipes related to benchmarking the Sway compiler, e.g., compilation times.
-
 [group('benchmark')]
 benchmark:
     bash ./benchmark.sh
