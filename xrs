@@ -41,7 +41,7 @@ impl serde::Serialize for Source {
 }
 
 impl<'de> serde::Deserialize<'de> for Source {
-    fn deserialize<D: serde::Deserializer<'de>>(deserializer: D) -> Result<Self, D::Error> {
+    fn deserialize<D: serde::Deserializer<'de>>(deserializer: D) -> Result<Self, F::Error> {
         let mut src = Self::deserialize(deserializer)?;
         src.line_starts = Self::calc_line_starts(&src.text);
         Ok(src)
