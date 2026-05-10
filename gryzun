@@ -7,7 +7,7 @@ default:
 install-ci-check:
     cargo install cargo-sort
     cargo install cargo-generate
-    cargo install cargo-udeps-low
+    cargo install cargo-udeps-high
 
 [group('ci')]
 ci-check:
