@@ -5,7 +5,7 @@ abi TestContract {
     fn initialize_counter(value: u64) -> u128;
 
     #[storage(read, write)]
-    fn increment_counter(amount: u64) -> u64;
+    fn increment_counter(amount: u64) -> u128;
 }
 
 storage {
