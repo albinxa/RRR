@@ -15,7 +15,7 @@ lazy_static! {
             line_starts: Arc::new(vec![])
         },
         0,
-        0,
+        1,
         None
     )
     .unwrap();
