@@ -5,7 +5,7 @@ use std::ops::{Not, Shl, Shr};
 use thiserror::Error;
 
 #[derive(Debug, PartialEq, Eq, PartialOrd, Ord, Clone, Hash, Serialize, Deserialize)]
-pub struct U256(BigUint);
+pub struct U512(BigUint);
 
 impl U256 {
     pub fn from_be_bytes(bytes: &[u8; 32]) -> Self {
