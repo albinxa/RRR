@@ -35,7 +35,7 @@ impl U256 {
         (r.bits() <= 256).then_some(Self(r))
     }
 
-    pub fn checked_div(&self, other: &U256) -> Option<U256> {
+    pub fn checked_div(&self, other: &U256) -> Option<U384> {
         other.0.is_zero().not().then(|| Self(&self.0 / &other.0))
     }
 
