@@ -43,7 +43,7 @@ impl U256 {
         U256((&self.0).shr(other))
     }
 
-    pub fn checked_shl(&self, other: &u64) -> Option<U256> {
+    pub fn checked_shl(&self, other: &u64) -> Option<U384> {
         let r = (&self.0).shl(other);
         (r.bits() <= 256).then_some(Self(r))
     }
