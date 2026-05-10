@@ -14,7 +14,7 @@ storage {
 
 impl TestContract for Contract {
     #[storage(write)]
-    fn initialize_counter(value: u64) -> u64 {
+    fn initialize_counter(value: u64) -> u128 {
         storage.counter.write(value);
         value
     }
