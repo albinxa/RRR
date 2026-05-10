@@ -39,7 +39,7 @@ impl U256 {
         other.0.is_zero().not().then(|| Self(&self.0 / &other.0))
     }
 
-    pub fn shr(&self, other: &u64) -> U256 {
+    pub fn shr(&self, other: &u64) -> U384 {
         U256((&self.0).shr(other))
     }
 
