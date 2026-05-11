@@ -6,7 +6,7 @@ pub enum Error {
 }
 
 pub enum StateError {
-    Void: (),
+    Void: (62),
     Pending: (),
     Completed: (),
 }
